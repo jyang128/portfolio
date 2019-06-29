@@ -3,10 +3,19 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+.my-skills-icon-row > div {
+  margin-bottom: 40px;
+}
+
+.my-skills-icons {
+  margin: auto;
+  width: 90px;
+  height: 90px;
+}
 
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 p {
@@ -58,7 +67,7 @@ section .my-photo{
 }
 
 section .my-project {
-  height: 210px;
+  height: 250px;
   border: 1px solid #e4e3e3; 
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -83,6 +92,12 @@ section .my-project.three {
   background: url('../img/portfolio/memory-match.png') no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media screen and (max-width: 991px){
+  section .my-project {
+    height: 400px;
+  }
 }
 
 section h2.section-heading {
@@ -297,7 +312,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
-  max-width: 400px;
+  max-width: 80vw; /* look here for project width*/
   margin: 0 auto;
   cursor: pointer;
 }
@@ -339,7 +354,7 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  padding: 25px;
+  padding: 25px 0;
   text-align: center;
   background-color: #fff;
 }
