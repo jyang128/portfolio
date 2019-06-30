@@ -304,12 +304,16 @@ header.masthead .intro-text .intro-heading {
   margin: 10px auto;
 }
 
-#portfolio .my-icon-row a {
+.portfolio-modal .my-icon-row {
+  margin-bottom: 40px;
+}
+
+.my-icon-row a {
   margin-right: 10px;
   color: #366732;
 }
 
-#portfolio .my-icon-row a:hover {
+.my-icon-row a:hover {
   color: #76b371;
   text-decoration: none;
 }
@@ -334,7 +338,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(151, 197, 147, 0.344);
+  background: rgba(0,0,0, 0.2);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
