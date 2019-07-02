@@ -402,6 +402,12 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 15px;
 }
 
+@media screen and (max-width: 1024px){
+  .portfolio-modal .modal-content h2 {
+    font-size: 2em;
+  }
+}
+
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
 }
@@ -688,6 +694,11 @@ section#contact {
 
 section#contact .section-heading {
   color: #212529;
+}
+
+section#contact .contact-card-container {
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 section#contact .my-contact-info {
