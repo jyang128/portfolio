@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<link rel="icon" type="image/png" href="img/about/sun.png" />
+	<link rel="icon" type="image/png" href="img/about/leaf.png" />
 	<title>Jessica K. Yang | Web Developer</title>
 
 	<!-- Bootstrap core CSS -->
@@ -21,7 +21,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 	<!-- Custom styles for this template -->
-	<link href="css/agency.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
 
 	</head>
 
@@ -99,7 +99,7 @@
 		<div class="row">
 			<div class="col-lg-12 text-center">
 			<h2 class="section-heading text-uppercase">Portfolio</h2>
-			<h3 class="section-subheading text-muted">Explore some of the applications I've built.</h3>
+			<h3 class="section-subheading text-muted">Click the images to explore some of my work.</h3>
 			</div>
 		</div>
 		<div class="row">
@@ -157,7 +157,7 @@
 				<div class="my-project three"></div>
 			</a>
 			<div class="portfolio-caption">
-				<h4>Calvin and Hobbes</h4>
+				<h4>Dynamic Duo</h4>
 				<p class="text-muted">A memory match card game.</p>
 				<div class="my-icon-row">
 					<a href="https://match.jessicakyang.com/" target="_blank">
@@ -173,7 +173,7 @@
 		</div>
 	</section>
 
-	<!-- Skills -->
+	<!-- Skills (old: Team) -->
 	<section id="team" class="bg-light">
 		<div class="container">
 		<div class="row">
@@ -303,7 +303,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-12 contact-card-container">
 				<div class="row">
 					<div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3 my-contact-info text-center" >
 						<div class="contact-icon"><i class="fas fa-map-marker-alt"></i>  <strong>Location:</strong></div>
@@ -342,7 +342,7 @@
 				</li>
 			</ul>
 			</div>
-			<div class="col-md-4 offset-md-4 py-2">
+			<div class="col-md-8 offset-md-2 py-2">
 				<span class="copyright">Copyright &copy;2019 jessicakyang.com</span>
 			</div>
 		</div>
@@ -375,11 +375,11 @@
 							<i class="fab fa-github"></i> GitHub
 						</a>
 					</div>
-					<img class="img-fluid d-block mx-auto" src="img/portfolio/kronostory.png" alt="kronostory">
+					<img class="img-fluid d-block mx-auto" src="img/portfolio/kronostory-home.png" alt="kronostory">
 					<p>KronoStory is a community for finding and showcasing creative work and personal endeavors, featuring timelines that make it easy to see the whole process.</p>
 					<ul class="list-inline">
 					<li>Role: Lead Front End Developer</li>
-					<li>Technology: React.js, Axios, React Router, HTML5/CSS3, Bootstrap 4, PHP, MySQL</li>
+					<li>Technology: JavaScript, React.js, Axios, React Router, HTML5/CSS3, Bootstrap 4, PHP, MySQL</li>
 					</ul>
 					<button class="btn btn-primary" data-dismiss="modal" type="button">
 					<i class="fas fa-times"></i>
@@ -417,10 +417,10 @@
 						</a>
 					</div>
 					<img class="img-fluid d-block mx-auto" src="img/portfolio/dozens.png" alt="dozens">
-					<p>Use this app to order desserts by the dozen from a fictional bakery. Visitors can browse the treats, update their shopping cart, and place an order.</p>
+					<p>An online storefront for a bakery that sells treats by the dozen. Visitors can browse the site, add and remove treats from their cart, place an order, and view their confirmation/order summary.</p>
 					<ul class="list-inline">
 					<li>Solo Project</li>
-					<li>Technology: React.js, Fetch API, React Router, HTML5/CSS3, Bootstrap 4, PHP, MySQL</li>
+					<li>Technology: JavaScript, React.js, Fetch API, React Router, HTML5/CSS3, Bootstrap 4, PHP, MySQL</li>
 					</ul>
 					<button class="btn btn-primary" data-dismiss="modal" type="button">
 					<i class="fas fa-times"></i>
@@ -447,8 +447,8 @@
 				<div class="col-lg-8 mx-auto">
 				<div class="modal-body">
 					<!-- Project Details Go Here -->
-					<h2 class="text-uppercase">Memory Match</h2>
-					<p class="item-intro text-muted">A memory match game with <em>Calvin & Hobbes</em> theme.</p>
+					<h2 class="text-uppercase">Dynamic Duo</h2>
+					<p class="item-intro text-muted">A memory match game with Calvin & Hobbes theme.</p>
 					<div class="my-icon-row">
 						<a href="https://match.jessicakyang.com/" target="_blank">
 							<i class="fas fa-link"></i> Live
@@ -457,11 +457,11 @@
 							<i class="fab fa-github"></i> GitHub
 						</a>
 					</div>
-					<img class="img-fluid d-block mx-auto" src="img/portfolio/memory-match.png" alt="memory match">
-					<p>Match all 9 pairs of cards to win, and track your performance along the way.</p>
+					<img class="img-fluid d-block mx-auto" src="img/portfolio/match.png" alt="memory match">
+					<p>A themed memory match card game with 18 randomized face-down cards. Click to flip cards and execute logic to check for matches and mismatches. Match all 9 pairs to win, and track your stats along the way.</p>
 					<ul class="list-inline">
 					<li>Solo Project</li>
-					<li>Technology: HTML5/CSS3, jQuery</li>
+					<li>Technology: JavaScript, jQuery, HTML5/CSS3</li>
 					</ul>
 					<button class="btn btn-primary" data-dismiss="modal" type="button">
 					<i class="fas fa-times"></i>
@@ -480,10 +480,6 @@
 
 	<!-- Plugin JavaScript -->
 	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-	<!-- Contact form JavaScript -->
-	<script src="js/jqBootstrapValidation.js"></script>
-	<script src="js/contact_me.js"></script>
 
 	<!-- Custom scripts for this template -->
 	<script src="js/agency.min.js"></script>
