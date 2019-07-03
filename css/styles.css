@@ -64,7 +64,7 @@ section .my-project {
 }
 
 section .my-project.one {
-  background: url('../img/portfolio/kronostory.png') no-repeat;
+  background: url('../img/portfolio/kronostory-home.png') no-repeat;
   background-size: cover;
   background-position: center;
   
@@ -77,7 +77,7 @@ section .my-project.two {
 }
 
 section .my-project.three {
-  background: url('../img/portfolio/memory-match.png') no-repeat;
+  background: url('../img/portfolio/match.png') no-repeat;
   background-size: cover;
   background-position: center;
 }
