@@ -136,10 +136,8 @@ section h3.section-subheading {
   padding: 10px 20px;
   transition: all .3s;
   cursor: pointer;
-}
-
-.intro-cta .btn-intro:first-child {
   margin-right: 15px;
+  margin-bottom: 45px;
 }
 
 .intro-cta .btn-intro:hover {
@@ -265,7 +263,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
+  padding-top: 120px;
   padding-bottom: 100px;
 }
 
@@ -453,6 +451,13 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content button {
   cursor: pointer;
 }
+
+.project-overview h5, .technical-details h5 {
+  padding-bottom: 0.7em;
+}
+
+.project-overview p, .technical-details p {
+  color: #222222;
 
 .portfolio-modal .close-modal {
   position: absolute;
