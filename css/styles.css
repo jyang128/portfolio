@@ -71,7 +71,7 @@ section .my-project.one {
 }
 
 section .my-project.two {
-  background: url('../img/portfolio/dozens-bakery.png') no-repeat;
+  background: url('../img/portfolio/dozens-bakery-node.png') no-repeat;
   background-size: cover;
   background-position: center;
 }
