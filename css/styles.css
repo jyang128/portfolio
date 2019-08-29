@@ -64,14 +64,14 @@ section .my-project {
 }
 
 section .my-project.one {
-  background: url('../img/portfolio/kronostory-home.png') no-repeat;
+  background: url('../img/portfolio/kronostory.png') no-repeat;
   background-size: cover;
   background-position: center;
   
 }
 
 section .my-project.two {
-  background: url('../img/portfolio/dozens-bakery.png') no-repeat;
+  background: url('../img/portfolio/dozens-node.png') no-repeat;
   background-size: cover;
   background-position: center;
 }
